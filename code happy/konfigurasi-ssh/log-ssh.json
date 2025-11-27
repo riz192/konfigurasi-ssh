@@ -1,0 +1,200 @@
+{"timestamp":"Jul  3 16 59 41 DESKTOP-4L2TPEI sudo","message":"Jul  3 16:59:41 DESKTOP-4L2TPEI sudo:     root : TTY=pts/3 ; PWD=/mnt/c/Users/rizky/Desktop/learn-bash ; USER=root ; COMMAND=/usr/bin/apt install openssh-server"}
+{"timestamp":"Jul  3 17 00 11 DESKTOP-4L2TPEI useradd[5393]","message":"Jul  3 17:00:11 DESKTOP-4L2TPEI useradd[5393]: new user: name=sshd, UID=108, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none"}
+{"timestamp":"Jul  3 17 00 12 DESKTOP-4L2TPEI usermod[5400]","message":"Jul  3 17:00:12 DESKTOP-4L2TPEI usermod[5400]: change user 'sshd' password"}
+{"timestamp":"Jul  3 17 00 13 DESKTOP-4L2TPEI chage[5407]","message":"Jul  3 17:00:13 DESKTOP-4L2TPEI chage[5407]: changed password expiry for sshd"}
+{"timestamp":"Jul  3 17 00 15 DESKTOP-4L2TPEI sshd[5505]","message":"Jul  3 17:00:15 DESKTOP-4L2TPEI sshd[5505]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul  3 17 00 15 DESKTOP-4L2TPEI sshd[5505]","message":"Jul  3 17:00:15 DESKTOP-4L2TPEI sshd[5505]: Server listening on :: port 22."}
+{"timestamp":"Jul  3 17 00 34 DESKTOP-4L2TPEI sudo","message":"Jul  3 17:00:34 DESKTOP-4L2TPEI sudo:     root : TTY=pts/3 ; PWD=/mnt/c/Users/rizky/Desktop/learn-bash ; USER=root ; COMMAND=/usr/bin/systemctl start sshd.service"}
+{"timestamp":"Jul  3 17 00 46 DESKTOP-4L2TPEI sudo","message":"Jul  3 17:00:46 DESKTOP-4L2TPEI sudo:     root : TTY=pts/3 ; PWD=/mnt/c/Users/rizky/Desktop/learn-bash ; USER=root ; COMMAND=/usr/bin/systemctl enable sshd.service"}
+{"timestamp":"Jul  3 17 01 01 DESKTOP-4L2TPEI sudo","message":"Jul  3 17:01:01 DESKTOP-4L2TPEI sudo:     root : TTY=pts/3 ; PWD=/mnt/c/Users/rizky/Desktop/learn-bash ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh.service"}
+{"timestamp":"Jul  3 17 03 21 DESKTOP-4L2TPEI sudo","message":"Jul  3 17:03:21 DESKTOP-4L2TPEI sudo:     root : TTY=pts/3 ; PWD=/mnt/c/Users/rizky/Desktop/learn-bash ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service"}
+{"timestamp":"Jul  3 17 03 21 DESKTOP-4L2TPEI sshd[5505]","message":"Jul  3 17:03:21 DESKTOP-4L2TPEI sshd[5505]: Received signal 15; terminating."}
+{"timestamp":"Jul  3 17 03 21 DESKTOP-4L2TPEI sshd[5732]","message":"Jul  3 17:03:21 DESKTOP-4L2TPEI sshd[5732]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul  3 17 03 21 DESKTOP-4L2TPEI sshd[5732]","message":"Jul  3 17:03:21 DESKTOP-4L2TPEI sshd[5732]: Server listening on :: port 22."}
+{"timestamp":"Jul  4 11 11 11 DESKTOP-4L2TPEI sshd[362]","message":"Jul  4 11:11:11 DESKTOP-4L2TPEI sshd[362]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul  4 11 11 11 DESKTOP-4L2TPEI sshd[362]","message":"Jul  4 11:11:11 DESKTOP-4L2TPEI sshd[362]: Server listening on :: port 22."}
+{"timestamp":"Jul  4 18 34 02 DESKTOP-4L2TPEI sshd[361]","message":"Jul  4 18:34:02 DESKTOP-4L2TPEI sshd[361]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul  4 18 34 02 DESKTOP-4L2TPEI sshd[361]","message":"Jul  4 18:34:02 DESKTOP-4L2TPEI sshd[361]: Server listening on :: port 22."}
+{"timestamp":"Jul  5 00 17 57 DESKTOP-4L2TPEI sshd[359]","message":"Jul  5 00:17:57 DESKTOP-4L2TPEI sshd[359]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul  5 00 17 57 DESKTOP-4L2TPEI sshd[359]","message":"Jul  5 00:17:57 DESKTOP-4L2TPEI sshd[359]: Server listening on :: port 22."}
+{"timestamp":"Jul 12 19 01 25 DESKTOP-4L2TPEI sshd[396]","message":"Jul 12 19:01:25 DESKTOP-4L2TPEI sshd[396]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul 12 19 01 27 DESKTOP-4L2TPEI sshd[396]","message":"Jul 12 19:01:27 DESKTOP-4L2TPEI sshd[396]: Server listening on :: port 22."}
+{"timestamp":"Jul 12 23 26 47 DESKTOP-4L2TPEI sshd[362]","message":"Jul 12 23:26:47 DESKTOP-4L2TPEI sshd[362]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul 12 23 26 47 DESKTOP-4L2TPEI sshd[362]","message":"Jul 12 23:26:47 DESKTOP-4L2TPEI sshd[362]: Server listening on :: port 22."}
+{"timestamp":"Jul 13 18 13 12 DESKTOP-4L2TPEI sshd[375]","message":"Jul 13 18:13:12 DESKTOP-4L2TPEI sshd[375]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul 13 18 13 12 DESKTOP-4L2TPEI sshd[375]","message":"Jul 13 18:13:12 DESKTOP-4L2TPEI sshd[375]: Server listening on :: port 22."}
+{"timestamp":"Jul 15 09 47 42 DESKTOP-4L2TPEI sshd[361]","message":"Jul 15 09:47:42 DESKTOP-4L2TPEI sshd[361]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul 15 09 47 42 DESKTOP-4L2TPEI sshd[361]","message":"Jul 15 09:47:42 DESKTOP-4L2TPEI sshd[361]: Server listening on :: port 22."}
+{"timestamp":"Jul 15 17 43 04 DESKTOP-4L2TPEI sshd[336]","message":"Jul 15 17:43:04 DESKTOP-4L2TPEI sshd[336]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul 15 17 43 04 DESKTOP-4L2TPEI sshd[336]","message":"Jul 15 17:43:04 DESKTOP-4L2TPEI sshd[336]: Server listening on :: port 22."}
+{"timestamp":"Jul 15 18 12 18 DESKTOP-4L2TPEI sudo","message":"Jul 15 18:12:18 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky/Desktop ; USER=root ; COMMAND=/usr/bin/apt install ssh-server"}
+{"timestamp":"Jul 15 18 12 29 DESKTOP-4L2TPEI sudo","message":"Jul 15 18:12:29 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky/Desktop ; USER=root ; COMMAND=/usr/bin/apt install ssh"}
+{"timestamp":"Jul 15 18 12 52 DESKTOP-4L2TPEI sudo","message":"Jul 15 18:12:52 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky/Desktop ; USER=root ; COMMAND=/usr/bin/apt install openssh"}
+{"timestamp":"Jul 15 18 27 29 DESKTOP-4L2TPEI sudo","message":"Jul 15 18:27:29 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/3 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/apt install openssh-server"}
+{"timestamp":"Jul 15 18 29 13 DESKTOP-4L2TPEI sudo","message":"Jul 15 18:29:13 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/3 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 15 18 41 12 DESKTOP-4L2TPEI sudo","message":"Jul 15 18:41:12 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/3 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/systemctl start sshd.service"}
+{"timestamp":"Jul 15 18 41 27 DESKTOP-4L2TPEI sudo","message":"Jul 15 18:41:27 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/3 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service"}
+{"timestamp":"Jul 16 18 46 11 DESKTOP-4L2TPEI sshd[378]","message":"Jul 16 18:46:11 DESKTOP-4L2TPEI sshd[378]: Server listening on 0.0.0.0 port 22."}
+{"timestamp":"Jul 16 18 46 11 DESKTOP-4L2TPEI sshd[378]","message":"Jul 16 18:46:11 DESKTOP-4L2TPEI sshd[378]: Server listening on :: port 22."}
+{"timestamp":"Jul 16 18 49 29 DESKTOP-4L2TPEI sshd[567]","message":"Jul 16 18:49:29 DESKTOP-4L2TPEI sshd[567]: Connection closed by authenticating user dicoding 127.0.0.1 port 42746 [preauth]"}
+{"timestamp":"Jul 16 18 49 29 DESKTOP-4L2TPEI sshd[574]","message":"Jul 16 18:49:29 DESKTOP-4L2TPEI sshd[574]: Connection closed by authenticating user dicoding 127.0.0.1 port 46224 [preauth]"}
+{"timestamp":"Jul 16 18 49 35 DESKTOP-4L2TPEI sshd[587]","message":"Jul 16 18:49:35 DESKTOP-4L2TPEI sshd[587]: Accepted password for dicoding from 127.0.0.1 port 46234 ssh2"}
+{"timestamp":"Jul 16 18 49 35 DESKTOP-4L2TPEI sshd[587]","message":"Jul 16 18:49:35 DESKTOP-4L2TPEI sshd[587]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 16 18 49 35 DESKTOP-4L2TPEI sshd[611]","message":"Jul 16 18:49:35 DESKTOP-4L2TPEI sshd[611]: Received disconnect from 127.0.0.1 port 46234:11: disconnected by user"}
+{"timestamp":"Jul 16 18 49 35 DESKTOP-4L2TPEI sshd[611]","message":"Jul 16 18:49:35 DESKTOP-4L2TPEI sshd[611]: Disconnected from user dicoding 127.0.0.1 port 46234"}
+{"timestamp":"Jul 16 18 49 35 DESKTOP-4L2TPEI sshd[587]","message":"Jul 16 18:49:35 DESKTOP-4L2TPEI sshd[587]: pam_unix(sshd:session): session closed for user dicoding"}
+{"timestamp":"Jul 16 18 50 46 DESKTOP-4L2TPEI sudo","message":"Jul 16 18:50:46 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 16 18 53 02 DESKTOP-4L2TPEI sudo","message":"Jul 16 18:53:02 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/home/rizky/.ssh ; USER=root ; COMMAND=/usr/bin/su"}
+{"timestamp":"Jul 16 18 53 18 DESKTOP-4L2TPEI sudo","message":"Jul 16 18:53:18 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/rizky/.ssh ; USER=root ; COMMAND=/usr/bin/su"}
+{"timestamp":"Jul 16 18 53 28 DESKTOP-4L2TPEI sudo","message":"Jul 16 18:53:28 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/rizky/.ssh ; USER=root ; COMMAND=/usr/bin/su"}
+{"timestamp":"Jul 16 18 53 46 DESKTOP-4L2TPEI sudo","message":"Jul 16 18:53:46 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/rizky/.ssh ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 16 18 53 51 DESKTOP-4L2TPEI sudo","message":"Jul 16 18:53:51 DESKTOP-4L2TPEI sudo:     root : TTY=pts/3 ; PWD=/home/rizky/.ssh ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 16 18 54 56 DESKTOP-4L2TPEI sudo","message":"Jul 16 18:54:56 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/home/rizky/.ssh ; USER=root ; COMMAND=/usr/sbin/userdel -r dicoding"}
+{"timestamp":"Jul 16 19 10 38 DESKTOP-4L2TPEI sshd[986]","message":"Jul 16 19:10:38 DESKTOP-4L2TPEI sshd[986]: Accepted password for dicoding from 127.0.0.1 port 57486 ssh2"}
+{"timestamp":"Jul 16 19 10 39 DESKTOP-4L2TPEI sshd[986]","message":"Jul 16 19:10:39 DESKTOP-4L2TPEI sshd[986]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 16 19 10 50 DESKTOP-4L2TPEI sshd[1017]","message":"Jul 16 19:10:50 DESKTOP-4L2TPEI sshd[1017]: Received disconnect from 127.0.0.1 port 57486:11: disconnected by user"}
+{"timestamp":"Jul 16 19 10 50 DESKTOP-4L2TPEI sshd[1017]","message":"Jul 16 19:10:50 DESKTOP-4L2TPEI sshd[1017]: Disconnected from user dicoding 127.0.0.1 port 57486"}
+{"timestamp":"Jul 16 19 10 50 DESKTOP-4L2TPEI sshd[986]","message":"Jul 16 19:10:50 DESKTOP-4L2TPEI sshd[986]: pam_unix(sshd:session): session closed for user dicoding"}
+{"timestamp":"Jul 16 19 11 16 DESKTOP-4L2TPEI sshd[1034]","message":"Jul 16 19:11:16 DESKTOP-4L2TPEI sshd[1034]: Accepted password for dicoding from ::1 port 48226 ssh2"}
+{"timestamp":"Jul 16 19 11 16 DESKTOP-4L2TPEI sshd[1034]","message":"Jul 16 19:11:16 DESKTOP-4L2TPEI sshd[1034]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 16 19 19 08 DESKTOP-4L2TPEI sshd[1134]","message":"Jul 16 19:19:08 DESKTOP-4L2TPEI sshd[1134]: Failed password for rizky from ::1 port 35956 ssh2"}
+{"timestamp":"Jul 16 19 19 08 DESKTOP-4L2TPEI sshd[1134]","message":"Jul 16 19:19:08 DESKTOP-4L2TPEI sshd[1134]: Failed password for rizky from ::1 port 35956 ssh2"}
+{"timestamp":"Jul 16 19 19 09 DESKTOP-4L2TPEI sshd[1134]","message":"Jul 16 19:19:09 DESKTOP-4L2TPEI sshd[1134]: Connection closed by authenticating user rizky ::1 port 35956 [preauth]"}
+{"timestamp":"Jul 16 19 22 32 DESKTOP-4L2TPEI sshd[1755]","message":"Jul 16 19:22:32 DESKTOP-4L2TPEI sshd[1755]: Connection closed by authenticating user rizky 127.0.0.1 port 41942 [preauth]"}
+{"timestamp":"Jul 16 19 22 32 DESKTOP-4L2TPEI sshd[1781]","message":"Jul 16 19:22:32 DESKTOP-4L2TPEI sshd[1781]: Connection closed by authenticating user rizky 127.0.0.1 port 41956 [preauth]"}
+{"timestamp":"Jul 16 19 22 42 DESKTOP-4L2TPEI sshd[1794]","message":"Jul 16 19:22:42 DESKTOP-4L2TPEI sshd[1794]: Failed password for rizky from 127.0.0.1 port 41972 ssh2"}
+{"timestamp":"Jul 16 19 22 47 DESKTOP-4L2TPEI sshd[1794]","message":"Jul 16 19:22:47 DESKTOP-4L2TPEI sshd[1794]: Failed password for rizky from 127.0.0.1 port 41972 ssh2"}
+{"timestamp":"Jul 16 19 22 47 DESKTOP-4L2TPEI sshd[1794]","message":"Jul 16 19:22:47 DESKTOP-4L2TPEI sshd[1794]: Connection closed by authenticating user rizky 127.0.0.1 port 41972 [preauth]"}
+{"timestamp":"Jul 16 19 27 02 DESKTOP-4L2TPEI sshd[8330]","message":"Jul 16 19:27:02 DESKTOP-4L2TPEI sshd[8330]: Connection closed by authenticating user dicoding 127.0.0.1 port 45026 [preauth]"}
+{"timestamp":"Jul 16 19 27 02 DESKTOP-4L2TPEI sshd[8337]","message":"Jul 16 19:27:02 DESKTOP-4L2TPEI sshd[8337]: Connection closed by authenticating user dicoding 127.0.0.1 port 45028 [preauth]"}
+{"timestamp":"Jul 16 19 27 08 DESKTOP-4L2TPEI sshd[8350]","message":"Jul 16 19:27:08 DESKTOP-4L2TPEI sshd[8350]: Failed password for dicoding from 127.0.0.1 port 45044 ssh2"}
+{"timestamp":"Jul 16 19 27 09 DESKTOP-4L2TPEI sshd[8350]","message":"Jul 16 19:27:09 DESKTOP-4L2TPEI sshd[8350]: Failed password for dicoding from 127.0.0.1 port 45044 ssh2"}
+{"timestamp":"Jul 16 19 27 09 DESKTOP-4L2TPEI sshd[8350]","message":"Jul 16 19:27:09 DESKTOP-4L2TPEI sshd[8350]: Connection closed by authenticating user dicoding 127.0.0.1 port 45044 [preauth]"}
+{"timestamp":"Jul 16 19 27 31 DESKTOP-4L2TPEI sshd[8388]","message":"Jul 16 19:27:31 DESKTOP-4L2TPEI sshd[8388]: Connection closed by authenticating user dicoding 127.0.0.1 port 55270 [preauth]"}
+{"timestamp":"Jul 16 19 27 31 DESKTOP-4L2TPEI sshd[8395]","message":"Jul 16 19:27:31 DESKTOP-4L2TPEI sshd[8395]: Connection closed by authenticating user dicoding 127.0.0.1 port 55274 [preauth]"}
+{"timestamp":"Jul 16 19 27 39 DESKTOP-4L2TPEI sshd[8408]","message":"Jul 16 19:27:39 DESKTOP-4L2TPEI sshd[8408]: Accepted password for dicoding from 127.0.0.1 port 55290 ssh2"}
+{"timestamp":"Jul 16 19 27 40 DESKTOP-4L2TPEI sshd[8408]","message":"Jul 16 19:27:40 DESKTOP-4L2TPEI sshd[8408]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 16 19 27 40 DESKTOP-4L2TPEI sshd[8433]","message":"Jul 16 19:27:40 DESKTOP-4L2TPEI sshd[8433]: Received disconnect from 127.0.0.1 port 55290:11: disconnected by user"}
+{"timestamp":"Jul 16 19 27 41 DESKTOP-4L2TPEI sshd[8433]","message":"Jul 16 19:27:41 DESKTOP-4L2TPEI sshd[8433]: Disconnected from user dicoding 127.0.0.1 port 55290"}
+{"timestamp":"Jul 16 19 27 41 DESKTOP-4L2TPEI sshd[8408]","message":"Jul 16 19:27:41 DESKTOP-4L2TPEI sshd[8408]: pam_unix(sshd:session): session closed for user dicoding"}
+{"timestamp":"Jul 16 19 28 21 DESKTOP-4L2TPEI sudo","message":"Jul 16 19:28:21 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 16 19 28 29 DESKTOP-4L2TPEI sudo","message":"Jul 16 19:28:29 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 16 19 28 46 DESKTOP-4L2TPEI sudo","message":"Jul 16 19:28:46 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 16 19 31 06 DESKTOP-4L2TPEI sudo","message":"Jul 16 19:31:06 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 16 19 32 04 DESKTOP-4L2TPEI sudo","message":"Jul 16 19:32:04 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 16 19 35 06 DESKTOP-4L2TPEI sudo","message":"Jul 16 19:35:06 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh"}
+{"timestamp":"Jul 16 19 35 06 DESKTOP-4L2TPEI sshd[378]","message":"Jul 16 19:35:06 DESKTOP-4L2TPEI sshd[378]: Received signal 15; terminating."}
+{"timestamp":"Jul 16 19 35 08 DESKTOP-4L2TPEI sshd[8506]","message":"Jul 16 19:35:08 DESKTOP-4L2TPEI sshd[8506]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 16 19 35 08 DESKTOP-4L2TPEI sshd[8506]","message":"Jul 16 19:35:08 DESKTOP-4L2TPEI sshd[8506]: Server listening on :: port 2000."}
+{"timestamp":"Jul 16 19 35 16 DESKTOP-4L2TPEI sudo","message":"Jul 16 19:35:16 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status ssh"}
+{"timestamp":"Jul 16 19 35 33 DESKTOP-4L2TPEI sshd[1065]","message":"Jul 16 19:35:33 DESKTOP-4L2TPEI sshd[1065]: Received disconnect from ::1 port 48226:11: disconnected by user"}
+{"timestamp":"Jul 16 19 35 36 DESKTOP-4L2TPEI sshd[1065]","message":"Jul 16 19:35:36 DESKTOP-4L2TPEI sshd[1065]: Disconnected from user dicoding ::1 port 48226"}
+{"timestamp":"Jul 16 19 35 36 DESKTOP-4L2TPEI sshd[1034]","message":"Jul 16 19:35:36 DESKTOP-4L2TPEI sshd[1034]: pam_unix(sshd:session): session closed for user dicoding"}
+{"timestamp":"Jul 16 19 35 49 DESKTOP-4L2TPEI sshd[8515]","message":"Jul 16 19:35:49 DESKTOP-4L2TPEI sshd[8515]: Accepted password for dicoding from ::1 port 41294 ssh2"}
+{"timestamp":"Jul 16 19 35 49 DESKTOP-4L2TPEI sshd[8515]","message":"Jul 16 19:35:49 DESKTOP-4L2TPEI sshd[8515]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 16 20 39 53 DESKTOP-4L2TPEI sshd[8515]","message":"Jul 16 20:39:53 DESKTOP-4L2TPEI sshd[8515]: pam_unix(sshd:session): session closed for user dicoding"}
+{"timestamp":"Jul 17 03 33 51 DESKTOP-4L2TPEI sshd[364]","message":"Jul 17 03:33:51 DESKTOP-4L2TPEI sshd[364]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 17 03 33 51 DESKTOP-4L2TPEI sshd[364]","message":"Jul 17 03:33:51 DESKTOP-4L2TPEI sshd[364]: Server listening on :: port 2000."}
+{"timestamp":"Jul 17 03 36 15 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:36:15 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 03 36 31 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:36:31 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 03 37 39 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:37:39 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 03 38 03 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:38:03 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 03 38 10 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:38:10 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 03 39 22 DESKTOP-4L2TPEI sshd[571]","message":"Jul 17 03:39:22 DESKTOP-4L2TPEI sshd[571]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=root"}
+{"timestamp":"Jul 17 03 39 24 DESKTOP-4L2TPEI sshd[571]","message":"Jul 17 03:39:24 DESKTOP-4L2TPEI sshd[571]: Failed password for root from ::1 port 40224 ssh2"}
+{"timestamp":"Jul 17 03 39 31 DESKTOP-4L2TPEI sshd[571]","message":"Jul 17 03:39:31 DESKTOP-4L2TPEI sshd[571]: Failed password for root from ::1 port 40224 ssh2"}
+{"timestamp":"Jul 17 03 39 33 DESKTOP-4L2TPEI sshd[571]","message":"Jul 17 03:39:33 DESKTOP-4L2TPEI sshd[571]: Connection closed by authenticating user root ::1 port 40224 [preauth]"}
+{"timestamp":"Jul 17 03 39 33 DESKTOP-4L2TPEI sshd[571]","message":"Jul 17 03:39:33 DESKTOP-4L2TPEI sshd[571]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=root"}
+{"timestamp":"Jul 17 03 39 39 DESKTOP-4L2TPEI sshd[578]","message":"Jul 17 03:39:39 DESKTOP-4L2TPEI sshd[578]: Connection closed by authenticating user root ::1 port 45024 [preauth]"}
+{"timestamp":"Jul 17 03 40 38 DESKTOP-4L2TPEI sshd[589]","message":"Jul 17 03:40:38 DESKTOP-4L2TPEI sshd[589]: Accepted password for dicoding from ::1 port 50194 ssh2"}
+{"timestamp":"Jul 17 03 40 38 DESKTOP-4L2TPEI sshd[589]","message":"Jul 17 03:40:38 DESKTOP-4L2TPEI sshd[589]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 17 03 40 53 DESKTOP-4L2TPEI sshd[620]","message":"Jul 17 03:40:53 DESKTOP-4L2TPEI sshd[620]: Received disconnect from ::1 port 50194:11: disconnected by user"}
+{"timestamp":"Jul 17 03 40 53 DESKTOP-4L2TPEI sshd[620]","message":"Jul 17 03:40:53 DESKTOP-4L2TPEI sshd[620]: Disconnected from user dicoding ::1 port 50194"}
+{"timestamp":"Jul 17 03 40 53 DESKTOP-4L2TPEI sshd[589]","message":"Jul 17 03:40:53 DESKTOP-4L2TPEI sshd[589]: pam_unix(sshd:session): session closed for user dicoding"}
+{"timestamp":"Jul 17 03 41 08 DESKTOP-4L2TPEI sshd[639]","message":"Jul 17 03:41:08 DESKTOP-4L2TPEI sshd[639]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=root"}
+{"timestamp":"Jul 17 03 41 10 DESKTOP-4L2TPEI sshd[639]","message":"Jul 17 03:41:10 DESKTOP-4L2TPEI sshd[639]: Failed password for root from ::1 port 57888 ssh2"}
+{"timestamp":"Jul 17 03 41 14 DESKTOP-4L2TPEI sshd[639]","message":"Jul 17 03:41:14 DESKTOP-4L2TPEI sshd[639]: Connection closed by authenticating user root ::1 port 57888 [preauth]"}
+{"timestamp":"Jul 17 03 43 06 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:43:06 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status sshd"}
+{"timestamp":"Jul 17 03 43 53 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:43:53 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service"}
+{"timestamp":"Jul 17 03 45 26 DESKTOP-4L2TPEI sshd[753]","message":"Jul 17 03:45:26 DESKTOP-4L2TPEI sshd[753]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=root"}
+{"timestamp":"Jul 17 03 45 28 DESKTOP-4L2TPEI sshd[753]","message":"Jul 17 03:45:28 DESKTOP-4L2TPEI sshd[753]: Failed password for root from ::1 port 44650 ssh2"}
+{"timestamp":"Jul 17 03 45 33 DESKTOP-4L2TPEI sshd[753]","message":"Jul 17 03:45:33 DESKTOP-4L2TPEI sshd[753]: Connection closed by authenticating user root ::1 port 44650 [preauth]"}
+{"timestamp":"Jul 17 03 46 39 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:46:39 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service"}
+{"timestamp":"Jul 17 03 46 39 DESKTOP-4L2TPEI sshd[364]","message":"Jul 17 03:46:39 DESKTOP-4L2TPEI sshd[364]: Received signal 15; terminating."}
+{"timestamp":"Jul 17 03 46 40 DESKTOP-4L2TPEI sshd[773]","message":"Jul 17 03:46:40 DESKTOP-4L2TPEI sshd[773]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 17 03 46 40 DESKTOP-4L2TPEI sshd[773]","message":"Jul 17 03:46:40 DESKTOP-4L2TPEI sshd[773]: Server listening on :: port 2000."}
+{"timestamp":"Jul 17 03 49 28 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:49:28 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 03 55 43 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:55:43 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service"}
+{"timestamp":"Jul 17 03 55 43 DESKTOP-4L2TPEI sshd[773]","message":"Jul 17 03:55:43 DESKTOP-4L2TPEI sshd[773]: Received signal 15; terminating."}
+{"timestamp":"Jul 17 03 55 58 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:55:58 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service"}
+{"timestamp":"Jul 17 03 56 12 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:56:12 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl stop sshd.service"}
+{"timestamp":"Jul 17 03 56 17 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:56:17 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service"}
+{"timestamp":"Jul 17 03 56 36 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:56:36 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/sbin/service start openssh"}
+{"timestamp":"Jul 17 03 56 48 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:56:48 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl stop sshd.service"}
+{"timestamp":"Jul 17 03 56 52 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:56:52 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service"}
+{"timestamp":"Jul 17 03 57 03 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:57:03 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 03 57 27 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:57:27 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service"}
+{"timestamp":"Jul 17 03 57 27 DESKTOP-4L2TPEI sshd[879]","message":"Jul 17 03:57:27 DESKTOP-4L2TPEI sshd[879]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 17 03 57 27 DESKTOP-4L2TPEI sshd[879]","message":"Jul 17 03:57:27 DESKTOP-4L2TPEI sshd[879]: Server listening on :: port 2000."}
+{"timestamp":"Jul 17 03 57 31 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:57:31 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service"}
+{"timestamp":"Jul 17 03 59 16 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:59:16 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 03 59 48 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:59:48 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service"}
+{"timestamp":"Jul 17 03 59 56 DESKTOP-4L2TPEI sudo","message":"Jul 17 03:59:56 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service"}
+{"timestamp":"Jul 17 03 59 56 DESKTOP-4L2TPEI sshd[879]","message":"Jul 17 03:59:56 DESKTOP-4L2TPEI sshd[879]: Received signal 15; terminating."}
+{"timestamp":"Jul 17 03 59 57 DESKTOP-4L2TPEI sshd[910]","message":"Jul 17 03:59:57 DESKTOP-4L2TPEI sshd[910]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 17 03 59 57 DESKTOP-4L2TPEI sshd[910]","message":"Jul 17 03:59:57 DESKTOP-4L2TPEI sshd[910]: Server listening on :: port 2000."}
+{"timestamp":"Jul 17 04 00 06 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:00:06 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service"}
+{"timestamp":"Jul 17 04 00 54 DESKTOP-4L2TPEI sshd[919]","message":"Jul 17 04:00:54 DESKTOP-4L2TPEI sshd[919]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=root"}
+{"timestamp":"Jul 17 04 00 56 DESKTOP-4L2TPEI sshd[919]","message":"Jul 17 04:00:56 DESKTOP-4L2TPEI sshd[919]: Failed password for root from ::1 port 39178 ssh2"}
+{"timestamp":"Jul 17 04 00 57 DESKTOP-4L2TPEI sshd[919]","message":"Jul 17 04:00:57 DESKTOP-4L2TPEI sshd[919]: Connection closed by authenticating user root ::1 port 39178 [preauth]"}
+{"timestamp":"Jul 17 04 01 14 DESKTOP-4L2TPEI sshd[924]","message":"Jul 17 04:01:14 DESKTOP-4L2TPEI sshd[924]: Accepted password for dicoding from ::1 port 33258 ssh2"}
+{"timestamp":"Jul 17 04 01 14 DESKTOP-4L2TPEI sshd[924]","message":"Jul 17 04:01:14 DESKTOP-4L2TPEI sshd[924]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 17 04 02 00 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:02:00 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service"}
+{"timestamp":"Jul 17 04 06 47 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:06:47 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 04 08 23 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:08:23 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/ssh_config"}
+{"timestamp":"Jul 17 04 11 14 DESKTOP-4L2TPEI sshd[956]","message":"Jul 17 04:11:14 DESKTOP-4L2TPEI sshd[956]: Received disconnect from ::1 port 33258:11: disconnected by user"}
+{"timestamp":"Jul 17 04 11 14 DESKTOP-4L2TPEI sshd[956]","message":"Jul 17 04:11:14 DESKTOP-4L2TPEI sshd[956]: Disconnected from user dicoding ::1 port 33258"}
+{"timestamp":"Jul 17 04 11 14 DESKTOP-4L2TPEI sshd[924]","message":"Jul 17 04:11:14 DESKTOP-4L2TPEI sshd[924]: pam_unix(sshd:session): session closed for user dicoding"}
+{"timestamp":"Jul 17 04 11 47 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:11:47 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/sbin/service ssh restart"}
+{"timestamp":"Jul 17 04 11 47 DESKTOP-4L2TPEI sshd[910]","message":"Jul 17 04:11:47 DESKTOP-4L2TPEI sshd[910]: Received signal 15; terminating."}
+{"timestamp":"Jul 17 04 11 47 DESKTOP-4L2TPEI sshd[1069]","message":"Jul 17 04:11:47 DESKTOP-4L2TPEI sshd[1069]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 17 04 11 47 DESKTOP-4L2TPEI sshd[1069]","message":"Jul 17 04:11:47 DESKTOP-4L2TPEI sshd[1069]: Server listening on :: port 2000."}
+{"timestamp":"Jul 17 04 11 52 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:11:52 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/sbin/service ssh status"}
+{"timestamp":"Jul 17 04 13 23 DESKTOP-4L2TPEI sshd[1131]","message":"Jul 17 04:13:23 DESKTOP-4L2TPEI sshd[1131]: Accepted password for dicoding from ::1 port 33670 ssh2"}
+{"timestamp":"Jul 17 04 13 23 DESKTOP-4L2TPEI sshd[1131]","message":"Jul 17 04:13:23 DESKTOP-4L2TPEI sshd[1131]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 17 04 15 59 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:15:59 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 04 16 10 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:16:10 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/sbin/service ssh status"}
+{"timestamp":"Jul 17 04 16 21 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:16:21 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/sbin/service ssh restart"}
+{"timestamp":"Jul 17 04 16 21 DESKTOP-4L2TPEI sshd[1069]","message":"Jul 17 04:16:21 DESKTOP-4L2TPEI sshd[1069]: Received signal 15; terminating."}
+{"timestamp":"Jul 17 04 16 21 DESKTOP-4L2TPEI sshd[1233]","message":"Jul 17 04:16:21 DESKTOP-4L2TPEI sshd[1233]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 17 04 16 21 DESKTOP-4L2TPEI sshd[1233]","message":"Jul 17 04:16:21 DESKTOP-4L2TPEI sshd[1233]: Server listening on :: port 2000."}
+{"timestamp":"Jul 17 04 16 23 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:16:23 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/sbin/service ssh status"}
+{"timestamp":"Jul 17 04 18 26 DESKTOP-4L2TPEI sshd[1280]","message":"Jul 17 04:18:26 DESKTOP-4L2TPEI sshd[1280]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=root"}
+{"timestamp":"Jul 17 04 18 28 DESKTOP-4L2TPEI sshd[1280]","message":"Jul 17 04:18:28 DESKTOP-4L2TPEI sshd[1280]: Failed password for root from ::1 port 43228 ssh2"}
+{"timestamp":"Jul 17 04 18 30 DESKTOP-4L2TPEI sshd[1280]","message":"Jul 17 04:18:30 DESKTOP-4L2TPEI sshd[1280]: error: Received disconnect from ::1 port 43228:13: Unable to authenticate [preauth]"}
+{"timestamp":"Jul 17 04 18 30 DESKTOP-4L2TPEI sshd[1280]","message":"Jul 17 04:18:30 DESKTOP-4L2TPEI sshd[1280]: Disconnected from authenticating user root ::1 port 43228 [preauth]"}
+{"timestamp":"Jul 17 04 20 24 DESKTOP-4L2TPEI sshd[1289]","message":"Jul 17 04:20:24 DESKTOP-4L2TPEI sshd[1289]: Accepted password for dicoding from ::1 port 46696 ssh2"}
+{"timestamp":"Jul 17 04 20 24 DESKTOP-4L2TPEI sshd[1289]","message":"Jul 17 04:20:24 DESKTOP-4L2TPEI sshd[1289]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 17 04 22 47 DESKTOP-4L2TPEI sshd[1368]","message":"Jul 17 04:22:47 DESKTOP-4L2TPEI sshd[1368]: Accepted password for dicoding from ::1 port 43166 ssh2"}
+{"timestamp":"Jul 17 04 22 48 DESKTOP-4L2TPEI sshd[1368]","message":"Jul 17 04:22:48 DESKTOP-4L2TPEI sshd[1368]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)"}
+{"timestamp":"Jul 17 04 23 17 DESKTOP-4L2TPEI sshd[1394]","message":"Jul 17 04:23:17 DESKTOP-4L2TPEI sshd[1394]: Received disconnect from ::1 port 43166:11: disconnected by user"}
+{"timestamp":"Jul 17 04 23 17 DESKTOP-4L2TPEI sshd[1394]","message":"Jul 17 04:23:17 DESKTOP-4L2TPEI sshd[1394]: Disconnected from user dicoding ::1 port 43166"}
+{"timestamp":"Jul 17 04 23 17 DESKTOP-4L2TPEI sshd[1368]","message":"Jul 17 04:23:17 DESKTOP-4L2TPEI sshd[1368]: pam_unix(sshd:session): session closed for user dicoding"}
+{"timestamp":"Jul 17 04 24 38 DESKTOP-4L2TPEI sshd[1289]","message":"Jul 17 04:24:38 DESKTOP-4L2TPEI sshd[1289]: pam_unix(sshd:session): session closed for user dicoding"}
+{"timestamp":"Jul 17 04 29 14 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:29:14 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/2 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh_config"}
+{"timestamp":"Jul 17 04 29 27 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:29:27 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/2 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/ssh_config"}
+{"timestamp":"Jul 17 04 29 52 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:29:52 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/2 ; PWD=/home/rizky ; USER=root ; COMMAND=/usr/sbin/service ssh restart"}
+{"timestamp":"Jul 17 04 29 53 DESKTOP-4L2TPEI sshd[1233]","message":"Jul 17 04:29:53 DESKTOP-4L2TPEI sshd[1233]: Received signal 15; terminating."}
+{"timestamp":"Jul 17 04 29 53 DESKTOP-4L2TPEI sshd[1461]","message":"Jul 17 04:29:53 DESKTOP-4L2TPEI sshd[1461]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 17 04 29 53 DESKTOP-4L2TPEI sshd[1461]","message":"Jul 17 04:29:53 DESKTOP-4L2TPEI sshd[1461]: Server listening on :: port 2000."}
+{"timestamp":"Jul 17 04 31 13 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:31:13 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config"}
+{"timestamp":"Jul 17 04 32 10 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:32:10 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/sbin/service ssh restart"}
+{"timestamp":"Jul 17 04 32 10 DESKTOP-4L2TPEI sshd[1461]","message":"Jul 17 04:32:10 DESKTOP-4L2TPEI sshd[1461]: Received signal 15; terminating."}
+{"timestamp":"Jul 17 04 32 10 DESKTOP-4L2TPEI sshd[1522]","message":"Jul 17 04:32:10 DESKTOP-4L2TPEI sshd[1522]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 17 04 32 10 DESKTOP-4L2TPEI sshd[1522]","message":"Jul 17 04:32:10 DESKTOP-4L2TPEI sshd[1522]: Server listening on :: port 2000."}
+{"timestamp":"Jul 17 04 32 14 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:32:14 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/sbin/service ssh reload"}
+{"timestamp":"Jul 17 04 32 15 DESKTOP-4L2TPEI sshd[1522]","message":"Jul 17 04:32:15 DESKTOP-4L2TPEI sshd[1522]: Received SIGHUP; restarting."}
+{"timestamp":"Jul 17 04 32 15 DESKTOP-4L2TPEI sshd[1522]","message":"Jul 17 04:32:15 DESKTOP-4L2TPEI sshd[1522]: Server listening on 0.0.0.0 port 2000."}
+{"timestamp":"Jul 17 04 32 15 DESKTOP-4L2TPEI sshd[1522]","message":"Jul 17 04:32:15 DESKTOP-4L2TPEI sshd[1522]: Server listening on :: port 2000."}
+{"timestamp":"Jul 17 04 32 20 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:32:20 DESKTOP-4L2TPEI sudo:    rizky : TTY=pts/0 ; PWD=/mnt/c/Users/rizky ; USER=root ; COMMAND=/usr/sbin/service ssh status"}
+{"timestamp":"Jul 17 04 35 04 DESKTOP-4L2TPEI sudo","message":"Jul 17 04:35:04 DESKTOP-4L2TPEI sudo: dicoding : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/nano log-ssh.txt"}
